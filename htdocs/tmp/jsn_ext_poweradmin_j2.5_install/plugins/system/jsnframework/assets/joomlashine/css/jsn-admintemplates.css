@@ -1,0 +1,94 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: jsn-admintemplates.css 15481 2012-08-24 10:41:19Z cuongnm $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/*========================= FIX STYLE FOR BLUESTORK ========================*/
+.jsn-master.tmpl-bluestork div.pagetitle {
+	height: 52px;
+	display: block;
+	padding-left: 60px;
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+}
+.jsn-master.tmpl-bluestork div.pagetitle h2 {
+	font-size: 24px;
+	color: #333;
+	line-height: 55px;
+	text-shadow: 1px 1px 1px #eee;
+	margin-left: 5px;
+}
+.jsn-master.tmpl-bluestork ul.menu_types {
+	padding: 0 0 0 15px;
+}
+.jsn-master.tmpl-bluestork .pane-sliders {
+	margin-top: 8px;
+}
+.jsn-master.tmpl-bluestork .pane-sliders .panel h3 {
+	font-size: 12px;
+	padding: 5px;
+	font-weight: bold;
+}
+.jsn-master.tmpl-bluestork fieldset.panelform label,
+.jsn-master.tmpl-bluestork fieldset.panelform div.paramrow label,
+.jsn-master.tmpl-bluestork fieldset.panelform span.faux-label,
+.jsn-master.tmpl-bluestork fieldset.adminform label,
+.jsn-master.tmpl-bluestork fieldset.adminform span.faux-label {
+	max-width: none;
+	min-width: 0;
+	width: 135px;
+}
+.jsn-master.tmpl-bluestork fieldset.radio label {
+	width: auto;
+}
+.jsn-master.tmpl-bluestork dl.tabs {
+	margin-top: 5px;
+}
+
+/*========== HORIZONTAL MENU ==========*/
+.jsn-master #toolbar-box,
+.jsn-master #submenu-box,
+.jsn-master #element-box {
+	padding: 0;
+	margin: 10px;
+}
+.jsn-master #submenu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 115%;
+}
+.jsn-master #submenu li {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.jsn-master #submenu li a {
+	color: #025A8D;
+	font-weight: normal;
+	padding: 10px 15px;
+	border-right-color: #DDDDDD;
+	text-decoration: none;
+	float: left;
+	line-height: 1em;
+}
+.jsn-master #submenu-box div.m {
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 0;
+}
+.jsn-master #submenu a.active {
+	background: #e9e9e9 !important;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05) inset;
+	color: #666;
+	cursor: default;
+	font-weight: bold;
+}
+.jsn-master #submenu a:hover {
+	background: #eee;
+}

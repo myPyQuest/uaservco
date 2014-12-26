@@ -1,0 +1,148 @@
+/* ============================== GUI ELEMENTS ============================== */
+h3.jsn-element-heading {
+	margin: 15px 0 10px;
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #CCC;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 5px;
+}
+
+/* ----- BUTTON ----- */
+.link-button {
+	min-width: 100px;
+	cursor: pointer;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px 12px;
+	border: 1px solid #999;
+	display: inline-block;
+	color: #333;
+	background: url(../images/backgrounds/bg-button.png) left center repeat-x;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+.link-button:link,
+.link-button:visited {
+	color: #333;
+}
+.link-button:hover {
+	text-decoration: none;
+	border-color: #000;
+	color: #000;
+	box-shadow: 0 0 3px #666;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+}
+.link-button.disabled {
+	color: #ACA899;
+	cursor: default;
+	background: #f4f4f4;
+	border-color: #999;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.link-button.active {
+	color: #333;
+	border-color: #cc8033;
+	background: #FFD75E url(../images/backgrounds/bg-button-active.png) left bottom repeat-x;
+}
+.link-button.active:hover {
+	color: #000;
+	box-shadow: 0 0 3px #666;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+}
+.link-button span[class*="icon-"] {
+	padding-left: 22px;
+	display: inline-block;
+}
+.link-button .icon-box {
+	background: url(../images/icons-16/icon-box.png) left center no-repeat;
+}
+.link-button .icon-vote {
+	background: url(../images/icons-16/icon-vote.png) left center no-repeat;
+}
+
+/* ============================== BOX STYLES ============================== */
+.jsn-element-heading-arrow:hover {
+	background-color: #e9e9e9;
+}
+.jsn-element-heading-title {
+	display: none;
+}
+.jsn-button-container {
+	text-align: center;
+	margin: 10px;
+}
+.jsn-updater-success {
+    top: 2px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    position: relative;
+	background: url(../images/icons-16/icons-16-uni.png) left -946px no-repeat;
+}
+.jsn-updater-failure {
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    display: none;
+    position: relative;
+	background: url(../images/icons-16/icon-failure.png) left center no-repeat;
+}
+.jsn-updater-loading {
+	margin: 0 0 -2px 5px;
+}
+.jsn-updater-install,
+.jsn-updater-download {
+	display: none;
+	list-style: inside;
+}
+.update-success .jsn-updater-success {
+	display: inline-block;
+}
+.update-success .jsn-updater-loading,
+.update-failed .jsn-updater-loading {
+	display: none;
+}
+.update-failed .jsn-updater-failure {
+	display: inline-block;
+}
+#jsn-updater-button-cancel {
+	display: none;
+}
+#jsn-updater-button-finish {
+	display: none;
+}
+#jsn-updater-successfully {
+    display: none;
+    margin: 18px 0;
+    padding: 14px 0 0;
+	border-top: 1px solid #CCCCCC;
+}
+.jsn-updater-successfull button {
+	display: none;
+}
+.jsn-updater-successfull #jsn-updater-button-finish {
+	display: inline-block;
+}
+.jsn-updater-processing-box ul {
+	margin-left: 10px;
+}
+.jsn-installation-success-label {
+	color: #009900;
+    display: block;
+    font-size: 19px;
+    margin-bottom: 10px;
+}

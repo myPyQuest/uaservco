@@ -1,0 +1,281 @@
+/**
+ * Changelog
+ *
+ * @package			Sourcerer
+ * @version			2.11.4
+ *
+ * @author			Peter van Westen <peter@nonumber.nl>
+ * @link			http://www.nonumber.nl
+ * @copyright		Copyright © 2011 NoNumber! All Rights Reserved
+ * @license			http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+/**
+ * + Added
+ * ! Removed
+ * ^ Changed
+ * # Fixed
+ */
+
+01-Mar-2012 : v2.11.4
+ ^ Improved protection of editor fields
+ ^ Improved handling of tags in pdfs (Joomla 1.7+)
+ # Fixed styling issues in Editor Button popup (Joomla 1.7+)
+ # Fixed issue with php 'non-object' error when there are users with ids lower than 30
+
+13-Jan-2012 : v2.11.3
+ + Added translations: bg-BG, pl-PL, pt-PT, th-TH
+ ^ Updated translations: de-DE
+ ^ Cleaned up more code
+ # Fixed issue with database error in editor button popup window (Joomla 1.7+)
+ # Fixed issue with installer not removing the folder/zip from the tmp
+
+07-Nov-2011 : v2.11.2
+ + Added translations: sl-SI
+ ^ Cleaned code syntax (no longer guaranteed support for php 5.2.x and lower)
+ # Fixed issue with tags being handled in some edit forms
+
+17-Oct-2011 : v2.11.1
+ ^ Updated translations: de-DE
+ # Fixed security issue in NoNumber! Framework plugin
+
+08-Oct-2011 : v2.11.0
+ ^ Improved installer
+ ^ Moved translation language files to main package (no more language packs)
+ ^ Cleaned up some code (like no more use of DS)
+ ^ Changed NoNumber! Elements plugin to NoNumber! Framework
+ ^ Moved common language strings to NoNumber! Framework files
+ # Fixed issue with installation problems on some Joomla 1.7 setups
+ # Fixed issue with php debugging not working (Joomla 1.7)
+ # Fixed issue with Editor Button settings not being handled (Joomla 1.7)
+ # Fixed issue with Example Code field in Editor Button settings not working (Joomla 1.7)
+
+05-Jul-2011 : v2.9.0
+ + Joomla 1.7 compatible!
+ + Added option to set security levels for css, js and php to default
+
+20-Jun-2011 : v2.8.5
+ # Fixed issue with installation problems (Joomla 1.5)
+
+18-Jun-2011 : v2.8.4
+ ^ Changed way the mootools version is detected
+ ^ Improved insertion of rich content in TinyMCE editor
+ ^ Changed layout of settings
+ ^ Changed use of elements
+ # Fixed issue with {source} tags being interpreted in frontend editor
+
+01-Apr-2011 : v2.8.3
+ # Fixed issue plugin being executed on raw format pages
+ # Fixed issue with colors not being removed from source tags when inserting code
+
+25-Mar-2011 : v2.8.2
+ # Fixed issue with php error (get)
+
+25-Mar-2011 : v2.8.1
+ ^ Changed language files to be J1.6 ready
+ # Fixed issue with editor button not working for registered/author level
+ # Fixed issue with tags being interpreted in frontend editor fields with very large contents
+ # Fixed issue with search component breaking in some cases
+
+11-Feb-2011 : v2.8.0
+ ^ Changed extension icon / logo
+ # Fixed issue with public access to editor button popup page (security fix!)
+
+14-Dec-2010 : v2.7.1
+ # Fixed issues with document being called to early
+ # Fixed some issues with loading of language strings
+ # Cleaned up some code
+
+25-Nov-2010 : v2.7.0
+ + Added checks to see if NoNumber! Elements plugin is installed/enabled
+ ^ Fixed and updated all language strings
+ ^ Improved code to make it lighter/faster
+ # Fixed issue with tags being handled in edit fields
+
+16-Nov-2010 : v2.6.0
+ # Fixed extension causing pages to break on some setups
+ # Fixed issue with not working in some forms (where they should)
+
+15-Nov-2010 : v2.5.0
+ ^ Made MooTools 1.2 compatible
+ # Fixed some missing language strings
+ # Fixed some styling issues of PHP debug output
+ # Fixed issues with wrong version numbers in files
+
+18-Oct-2010 : v2.4.10
+ # Fixed faulty version number in package
+
+18-Oct-2010 : v2.4.9
+ # Fixed issue with use of some special characters like à
+ # Fixed issue with language file not being loaded for comment strings in html output
+
+24-Jul-2010 : v2.4.8
+ ^ Changed way version and license information are displayed (now via ajax)
+ ^ Changed way versions and licenses are checked (no more base64)
+ # Fixed issue with plugin edit page give error due to missing file
+
+19-Jul-2010 : v2.4.7
+ # Fixed issue with usage of multiple php blocks without trailing semi-colon
+
+07-Jul-2010 : v2.4.6
+ ^ Improved some code to make it lighter
+ # Fixed issue with errors in some cases when used in combination with Articles Anywhere
+
+23-Jun-2010 : v2.4.5
+ # Fixed issue with code looping, causing page timeouts
+
+22-Jun-2010 : v2.4.4
+ ^ Improved code (=faster)
+ ^ Changed language strings used for comments
+ # Fixed issue with enters before and after php output
+
+02-Apr-2010 : v2.4.3
+ ^ Made code a little lighter
+ # Fixed issue with errors on search page
+ # Fixed issue with errors about registry for php 5.0.5
+
+09-Feb-2010 : v2.4.2
+ ^ Reduced number of database queries
+ # Fixed error on some articles when no author is set
+ # Fixed issue with deprecated syntax for php 5.3+
+ # Fixed issue with preg_match_all error in some cases (when article author is not set)
+
+26-Jan-2010 : v2.4.1
+ # Fixed issue with Missing argument errors in feeds
+ # Fixed location of Joomla! DTD files
+
+19-Jan-2010 : v2.4.0
+ + Added Commercial License Code support
+ ^ Moved functions to helper file
+ ^ Moved elements to separate global plugin (also used by other extensions)
+ ^ Added extra html to code helpers output to prevent editor stripping tags
+ # Fixed padding on editor button in fronted when no icon is shown
+ # Fixed issue with preservation of indentation on selection in IE
+
+27-Nov-2009 : v2.3.2
+ # Fixed issue with Sourcerer codes being handled in Joomfishplus edit page
+ # Fixed issue with php errors when article does not pass security level
+
+11-Nov-2009 : v2.3.1
+ ^ Changed display of Sourcerer PHP Debugging
+ # Fixed issue with PHP code breaking if last line is a comment
+
+10-Nov-2009 : v2.3.0
+ + Added option to define editor button text
+ + Added option to show/hide editor button icon
+ ^ Changed size of modal window for Sourcerer editor to maximum
+ # Fixed issue with code from Sourcerer editor being messed up by html tags when using IE
+
+28-Oct-2009 : v2.2.3
+ ^ Changed file encoding to UTF-8
+ ^ Changed output of code from Sourcerer editor when no color is kept (cleaner)
+ ^ Changed method of indentation to output less html (1 tab image instead of 4 space images)
+ # Fixed issue with wrong comment in html when PHP is not enabled or doesn't pass security
+
+09-Oct-2009 : v2.2.2
+ ^ Changed the update check
+ # Fixed issue with changes in default settings not working
+
+17-Sep-2009 : v2.2.0
+ + Added option to preserve indentation of code in the content
+ ^ Completely change the editor button popup with special editor (EditArea)
+ ^ Cleaned up some code
+ # Fixed issue with errors when article author (created_by) does not exist
+ # Fixed issue with editor button popup not working on all setups
+
+07-Aug-2009 : v2.1.8
+ # Fixed issue with errors in feeds when using K2
+
+05-Aug-2009 : v2.1.7
+ ^ Made the toggling in settings faster and more stable
+ # Fixed issue with textareas overlapping in settings (in IE)
+
+01-Aug-2009 : v2.1.6
+ # Fixed issue with html_entity_decode error on some setups (php4)
+
+30-Jul-2009 : v2.1.5
+ # Fixed issue with code styling tags not all being removed in final output
+
+27-Jul-2009 : v2.1.4
+ ^ Changed code to make the Sourcerer editor button window work faster/better
+ # Fixed issue with code in Sourcerer editor button window not working properly in IE
+ # Fixed issue with Sourcerer editor button window not being accessible in some setups
+ # Fixed issue with [SRC] tags sometimes showing
+
+17-Jul-2009 : v2.1.3
+ # Fixed issue with error in Sourcerer editor button popup page
+
+12-Jul-2009 : v2.1.2
+ ^ Changed sliding toggle option (in admin settings) to work better in IE8
+ # Fixed issues with php4 incompatibility
+
+04-Jul-2009 : v2.1.1
+ # Fixed issue with preg_replace error
+
+03-Jul-2009 : v2.1.0
+ + Added option to disable Sourcerer temporarily via url &disable_sourcerer=1
+ + Added 3 ready available variables: $article, $user, $database
+ ^ Made code a lot lighter (less memory load)
+ ^ Changed the textarea element (made it resizable)
+ ^ Moved frontend language to a separate file
+ # Fixed some comments not being placed correctly
+ # Fixed issue with code in articles being executed twice
+
+26-Jun-2009 : v2.0.1
+ + Added syntax to escape html entities with underscore: &_...;
+ + Added fields to set the default rgb values for code coloring
+ + Added code coloring for html
+ ^ Changed the way the code is colored (more straightforward)
+ ^ Changed auto installer
+ # Fixed issue with special characters and &...; characters not being translated correctly
+
+12-Jun-2009 : v2.0.0
+ + Added option to disable html cleanup with {source 0} tag
+ + Added a lot of options to the editor button
+ + Added a check to see if system plugin is installed in the editor button settings page
+ + Added a wizard
+ ^ Changed the editor button from a simple insert to a complete Code Helper
+ ^ Changed the way PHP gets parsed: Now you can break PHP statements over multiple PHP blocks
+ ^ Changed installation procedure (automatic installer/updater)
+ ^ Changed the versioncheck
+ ^ Changed different administrator elements
+ ^ Changed the output of the PHP Debugging and enabled it only for (Super) Administrators
+ ^ Changed the link for more information
+ ^ Changed a lot of language code
+ ^ Changed tag syntax setting (can now only set word)
+ ! Removed (the need for) the Sourcerer module and its settings
+ ! Removed the settings for Categories / Sections (is now together with Article settings)
+ ! Removed update icon in administrator toolbar
+ ! Removed security check on article modifier (so now only checks creator)
+ # Fixed issue with styling breaking the code (all html tags get stripped)
+ # Fixed issue with PHP vars over multiple Sourcerer tags
+ # Fixed issue with using the {source} tags in paragraphs
+ # Fixed issue with editor button breaking if plugin was not installed
+ # Fixed issue with editor button settings not working if plugin was disabled
+ # Fixed issue with editor button image not working on frontend
+ # Fixed issue with option to not use example code not working
+
+26-Sep-2008 : v1.0.0
+ + First stable release
+ + Added support for defining vars over multiple Sourcerer tags
+ ^ Changed a lot of code to standardize syntax
+ ^ Changed the version check
+
+03-Jul-2008 : v0.1.5
+ # Fixed issue with params not being initialized properly (resulting in bug for components)
+
+02-Jul-2008 : v0.1.4
+ # Fixed an issue with special characters inside the Sourcerer tags
+
+25-Jun-2008 : v0.1.3
+ # Fixed a bug with the components compatibility
+
+14-Jun-2008 : v0.1.2
+ ^ Optimized the code a bit more
+ ^ Changed the bracket syntax for tags: now [[tag]] instead of [tag]. This because single brackets can be used in JavaScript and PHP.
+
+09-Jun-2008 : v0.1.1
+ # Fixed some issues with security levels regarding articles
+
+02-Jun-2008 : v0.1.0
+ + First release (based on AnyTags! v2.2.2)

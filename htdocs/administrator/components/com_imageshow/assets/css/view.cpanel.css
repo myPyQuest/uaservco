@@ -1,0 +1,125 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: imageshow.css 13748 2012-07-03 12:13:32Z thangbh $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+ 
+/* ============================== LAUNCH PAD ============================== */
+#jsn-cpanel {
+	width: 500px;
+	margin: 50px auto;
+}
+#jsn-cpanel .jsn-cpanel-block {
+	position: relative;
+	margin-bottom: 22px;
+}
+#jsn-cpanel .jsn-gallery-option {
+	padding: 17px 15px;
+}
+#jsn-cpanel .jsn-gallery-option .btn {
+	width: 75px;
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#jsn-cpanel .jsn-gallery-option .btn:hover {
+	background-color: #E6E6E6;
+}
+#jsn-cpanel .jsn-process-step {
+	top: 30px;
+	left: -110px;
+	width: 80px;
+	position: absolute;
+	text-align: center;
+	background-color: #FFF;
+	border: 1px solid #D4D4D4;
+	border-radius: 75px;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	margin: 0;
+	color: #D4D4D4;
+	font-size: 50px;
+	line-height: 80px;
+	font-weight: bold;
+}
+#jsn-cpanel .jsn-gallery-selection {
+	position: relative;
+}
+#jsn-cpanel .jsn-gallery-selection .jsn-gallery-selectbox {
+	float: left;
+	width: 365px;
+	margin-right: 5px;
+	font-size: 14px;
+	height: 32px;
+}
+#jsn-cpanel .jsn-gallery-selection .jsn-menutype-selection {
+	display: none;
+}
+#jsn-cpanel .jsn-gallery-selection #presentation_method.active {
+	color: #000;
+	background-color: #FFF;
+}
+#jsn-cpanel .jsn-gallery-selection .btn {
+	position: absolute;
+	right: 0;
+	bottom: 8px;
+}
+#jsn-cpanel .jsn-gallery-nav-button {
+	float: left;
+	margin: 3px 0;
+	display: block;
+}
+#jsn-cpanel .jsn-gallery-nav-button a {
+	margin: 0 3px;
+}
+#jsn-cpanel #jsn-go-link-modal {
+	display: none;
+}
+#jsn-cpanel .jsn-menutype-selection {
+	display: none;
+	margin-top: 10px;
+}
+/* ============================== BOX STYLES ============================== */
+/* ========== PLUGIN SYNTAX DETAILS ========== */
+.jsn-plugin-details {
+}
+.jsn-plugin-details ul {
+	margin: 0 0 0 5px;
+	list-style-position: inside;
+}
+.jsn-plugin-details ul li .syntax-highlight {
+	color: #009900;
+	font-weight: bold;
+}
+.jsn-plugin-details #additional-syntax {
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: 1px solid #CCC;
+}
+.jsn-plugin-details #additional-syntax .tips {
+	margin: 0;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.jsn-clipboard-input {
+	position: relative;
+}
+.jsn-clipboard-checkicon {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s
+}
+.jsn-clipboard-coppied {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}

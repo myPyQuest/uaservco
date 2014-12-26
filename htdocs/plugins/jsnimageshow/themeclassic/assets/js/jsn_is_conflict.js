@@ -1,0 +1,1 @@
+var jsnThemeClassicjQuery = jQuery;jQuery.noConflict();

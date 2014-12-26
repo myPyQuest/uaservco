@@ -1,0 +1,99 @@
+div.positionlisting{	
+	width:750px;
+	margin-bottom:20px;
+	position: relative;
+	padding: 0px;
+}
+div.clear-fix{
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+div.positionlisting div p{
+	margin: 8px;
+	color:#000000;
+	font-size:12px;
+	font:Arial, Helvetica, sans-serif;
+}
+
+div.positionlisting div.position-selector{
+	width:125px;
+	position: absolute;
+}
+
+div.positionlisting div.position-selector div.position-contain{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	border:1px solid #CCCCCC;
+	background:#FFF;
+}
+
+div.positionlisting div.position-selector div.position-contain:hover{
+	background-color:#EFEFEF;
+	cursor:pointer;	
+}
+
+div.positionlisting div.active_item  div.position-contain,
+div.positionlisting div.active_item  div.position-contain:hover{
+	cursor: default;
+	border:2px solid #FFCC00;
+	background-color:#FFE3AA;
+}
+
+div.positionlisting div.hidden_item  div.position-contain,
+div.positionlisting div.hidden_item  div.position-contain:hover{
+	cursor: default;
+	border: none;
+	background: none;
+}
+div.positionlisting div.hidden_item p{
+	display: none;
+}
+/*===============================VISUALMODE================================*/
+#jsn-page-viewpositions-container #jsn-mainbody,
+#jsn-page-container #jsn-mainbody {
+    padding: 4px;
+}
+#jsn-page-viewpositions-container .poweradmin-position,
+#jsn-page-container .poweradmin-position{
+	margin:3px;
+	cursor:pointer;
+	background:#CCCCCC;
+	border:1px solid #FF9900;
+}
+#jsn-page-viewpositions-container .poweradmin-position{
+	cursor:default;
+}
+#jsn-page-viewpositions-container  div.jsn-component-container p,
+#jsn-page-viewpositions-container  .poweradmin-position p,
+#jsn-page-container div.jsn-component-container p,
+#jsn-page-container .poweradmin-position p{
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+	padding: 6px 8px;
+	margin: 0;
+	text-align: left;
+}
+#jsn-page-container div.poweradmin-position:hover{
+	background:#EFEFEF;
+}
+#jsn-page-viewpositions-container div.active-position p,
+#jsn-page-container div.active-position p{
+	cursor:default;
+	color:#000;
+	background:#FF9900;
+}
+#jsn-page-viewpositions-container div.jsn-component-container,
+#jsn-page-container div.jsn-component-container{
+	margin:3px;
+	background:#666666;
+	border:1px solid #FF9900;
+}
+#jsn-page-viewpositions-container div.jsn-component-container p,
+#jsn-page-container div.jsn-component-container p{
+	color:#CCCCCC;
+}

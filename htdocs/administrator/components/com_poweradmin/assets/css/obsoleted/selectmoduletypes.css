@@ -1,0 +1,47 @@
+body.contentpane{
+	background:#FFF;
+}
+
+.moduletypes{
+	position: relative;
+	margin: 10px;
+	margin-top: 22px;
+}
+div.clear-fix{
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+div.moduletypes div p{
+	margin: 8px;
+	color:#000000;
+	font-size:12px;
+	font:Arial, Helvetica, sans-serif;
+}
+div.moduletypes div.item_type{
+	width:220px;
+	position: absolute;
+}
+div.moduletypes div.item_type div.item_contain{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	border:1px solid #CCCCCC;
+	background:#FFF;
+}
+
+div.moduletypes div.item_type div.item_contain:hover{
+	background-color:#EFEFEF;
+	cursor:pointer;
+}
+div.moduletypes div.hidden_item  div.item_contain,
+div.moduletypes div.hidden_item  div.item_contain:hover{
+	cursor: default;
+	border: none;
+	background: none;
+}
+div.moduletypes div.hidden_item p{
+	display: none;
+}

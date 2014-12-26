@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="jsnimageshow" method="upgrade">
+	<name>Theme Classic</name>
+	<version>1.1.5</version>
+	<creationDate>08/31/2012</creationDate>
+	<copyright>Copyright (c) 2008 - 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<description>JSN IMAGESHOW SHOWCASE THEME CLASSIC PLUGIN</description>
+	<files>
+		<filename plugin="themeclassic">themeclassic.php</filename>
+		<filename plugin="themeclassic">install.mysql.sql</filename>
+		<filename plugin="themeclassic">uninstall.mysql.sql</filename>
+		<filename plugin="themeclassic">install.sqlsrv.sql</filename>
+		<filename plugin="themeclassic">uninstall.sqlsrv.sql</filename>
+		<folder>assets</folder>
+		<folder>classes</folder>
+		<folder>helper</folder>
+		<folder>languages</folder>
+		<folder>models</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+	</files>
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.mysql.sql</file>
+			<file charset="utf8" driver="sqlsrv">install.sqlsrv.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.mysql.sql</file>
+			<file charset="utf8" driver="sqlsrv">uninstall.sqlsrv.sql</file>
+		</sql>
+	</uninstall>	
+	<languages>
+		<language tag="en-GB">languages/en-GB.plg_jsnimageshow_themeclassic.ini</language>
+		<language tag="de-DE">languages/de-DE.plg_jsnimageshow_themeclassic.ini</language>
+		<language tag="pl-PL">languages/pl-PL.plg_jsnimageshow_themeclassic.ini</language>
+	</languages>
+</extension>

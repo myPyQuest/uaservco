@@ -1,0 +1,14 @@
+
+div.spotlightsearch ul li {
+	padding: 0;
+	cursor: pointer;
+	list-style:none;
+}
+div.spotlightsearch ul li a {
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+  color: #333333;
+  display: block;
+  padding: 5px 5px 5px 33px;
+  text-decoration: none;
+}

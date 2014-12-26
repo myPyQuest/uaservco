@@ -1,0 +1,718 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: imageshow.css 15641 2012-08-29 10:16:37Z giangnd $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - GENERAL TYPOGRAPHY =============== */
+/* ----- TEXT ----- */
+.content-center {
+	text-align: center;
+}
+.tips {
+	padding-left: 20px;
+	background: url(../images/icons-16/icons-16-uni.png) left -172px no-repeat;
+}
+.text-alert {
+	border-top: 2px solid #FEABAB;
+	border-bottom: 2px solid #FEABAB;
+	padding: 0.6em 0.8em 0.6em 4.8em;
+	background: #FFDFDF url(../images/icons-24/icon-warning.png) 20px center no-repeat;
+}
+/* ----- TABLE STYLES ----- */
+table.admintable {
+	width: 100%;
+}
+table.admintable td {
+	padding: 3px;
+	font-size: 12px;
+}
+table.admintable td.key,
+table.admintable td.paramlist_key {
+	width: 150px;
+}
+table.admintable input,
+table.admintable select {
+	margin: 0;
+	float: none;
+}
+table.admintable select {
+	margin-bottom: 9px;
+}
+table.admintable input.inputbox {
+	float: none;
+	margin: 5px 5px 0 5px;
+}
+table.admintable label {
+	float: none;
+	margin: 0;
+	display: inline;
+}
+table.admintable .readonly {
+	background-color: #FFF;
+}
+
+/* ============================== HEADER ICON ============================== */
+div.pagetitle.icon-48-launchpad {
+	background-image: url(../images/icons-48/icon-off.png);
+}
+div.pagetitle.icon-48-showlist,
+div.pagetitle.icon-48-showlist-settings {
+	background-image: url(../images/icons-48/icon-file.png);
+}
+div.pagetitle.icon-48-showcase,
+div.pagetitle.icon-48-showcase-settings {
+	background-image: url(../images/icons-48/icon-monitor.png);
+}
+div.pagetitle.icon-48-help {
+	background-image: url(../images/icons-48/icon-help.png);
+}
+div.pagetitle.icon-48-about {
+	background-image: url(../images/icons-48/icon-star.png);
+}
+div.pagetitle.icon-48-maintenance {
+	background-image: url(../images/icons-48/icon-cog.png);
+}
+.jsn-element-heading-title {
+	display: none;
+}
+/* =============== MAINTENANCE - IMAGE SOURCE PROFILE =============== */
+.jsn-image-source-close-profile {
+	display: none;
+}
+.jsn-image-source-title-close span.jsn-image-source-close-profile {
+	display: inline;
+}
+.jsn-image-source-title-close span.jsn-image-source-open-profile {
+	display: none;
+}
+#jsn-image-source-profiles .jsn-image-source-table-td-profiles {
+	padding: 0;
+	border: none;
+}
+#jsn-image-source-profiles .jsn-image-source-table-profiles {
+	border: none;
+}
+.jsn-image-source-profile-close {
+	display: none;
+}
+.jsn-image-source-seperator {
+	color: #ccc;
+	padding: 0 3px;
+}
+/* =============== MAINTENANCE - THEMES MANAGER =============== */
+#system-message dd.notice ul {
+	background-position: 4px center;
+}
+.jsn-loading-bg {
+	width: 100%;
+	height: 100%;
+	background: #fff url(../images/ajax-loader-m.gif) center center no-repeat;
+}
+#jsn-theme-details {
+	font-size: 12px;
+	line-height: 1.5;
+}
+#jsn-theme-details #jsn-showcase-theme-params {
+	height: 300px;
+	overflow: auto;
+}
+#jsn-theme-details select,
+#jsn-theme-details input {
+	width: 98%;
+}
+/* ============================== INSTALLATION ============================== */
+.jsn-installation-container {
+	width: 615px;
+	padding: 25px;
+	font-size: 12px;
+	margin: 39px auto;
+	background-color: #FFF;
+	border: 1px solid #D5D5D5;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 7px #999;
+	-moz-box-shadow: 0 0 7px #999;
+	-webkit-box-shadow: 0 0 7px #999;
+}
+.jsn-installation-step {
+	color: #B9B9B9;
+	font-size: 16px;
+	margin-top: 12px;
+	padding: 7px 12px;
+	font-weight: bold;
+	background: #F9F9F9;
+	border: 1px solid #D5D5D5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.jsn-installation-step.first {
+	margin-top: 0;
+}
+.jsn-installation-step.enabled {
+	color: #FFCF40;
+	font-weight: bold;
+	margin-bottom: 12px;
+	border: 2px solid #333333;
+	text-shadow: 0 1px 3px #333333;
+	background: #6A6A6A url(../images/backgrounds/bg-dgrey-heading.png) left bottom repeat-x;
+	box-shadow: 0 2px 5px 0 #666666;
+	-moz-box-shadow: 0 2px 5px 0 #666666;
+	-webkit-box-shadow: 0 2px 5px 0 #666666;
+}
+.jsn-installation-finish {
+	padding: 0 10px;
+}
+.jsn-installation-finish table {
+	margin: 0.35em 0 0.8em 0;
+}
+.jsn-installation-finish table td {
+	padding: 3px;
+}
+.jsn-installation-container h2 {
+	margin: 0;
+}
+.jsn-installation-finish ul {
+	list-style: inside;
+	margin: 0.35em 0 0.8em;
+}
+.jsn-installation-finish ul li {
+	margin: 12px 0;
+}
+.jsn-installation-finish ul .jsn-installation-failure {
+	margin-left: 6px;
+}
+.jsn-installation-finish .jsn-installation-failure li {
+	margin-left: 10px;
+}
+.jsn-installation-container p {
+	margin: 0.35em 0 0.8em;
+}
+/* =============== INSTALLATION - RESULT =============== */
+.jsn-installation-success {
+	line-height: 24px;
+	padding-left: 30px;
+	background: url(../images/icons-24/icon-check-success-install.png) left top no-repeat;
+}
+.jsn-installation-failure {
+	color: red;
+	margin: 0 0 0 13px;
+}
+#jsn-installation-failure-elements {
+	margin: 0 0 0 45px;
+}
+#jsn-installation-alert {
+	padding-left: 35px;
+	background: url(../images/icons-24/icon-warning.png) left center no-repeat;
+}
+.jsn-installation-error {
+	color: #CC0000;
+	font-weight: bold;
+}
+.jsn-installation-finish .text-alert {
+	margin: 10px 0 0 0;
+}
+.jsn-installation-finish .text-alert ul {
+	margin: 3px 0;
+	padding-left: 25px;
+}
+.jsn-installation-finish .text-alert ul li {
+	margin: 3px 0;
+}
+.jsn-install-processing {
+	display: inline;
+}
+.jsn-master .jsn-install-processing .jsn-icon16 {
+	display: none;
+}
+.jsn-install-processing p {
+	display: inline;
+}
+#jsn-install-process-theme {
+	display: none;
+}
+.jsn-install-processing {
+	color: #009900;
+}
+.jsn-install-processing img {
+	position: relative;
+}
+div.jsn-install-success img,
+div.jsn-install-success p.jsn-install-process-text {
+	display: none;
+}
+.jsn-master div.jsn-install-success .jsn-icon16 {
+	display: inline-block;
+}
+
+div.jsn-install-failure p,
+div.jsn-install-failure img {
+	display: none;
+}
+.jsn-master div.jsn-install-failure .jsn-icon16 {
+	display: inline-block;
+}
+#jsn-install-login-form tr td {
+	padding: 5px 10px;
+}
+#jsn-install-login-form input {
+	width: 100%;
+	height: 20px;
+	border-color: #809db9;
+}
+#jsn-install-login-form .label {
+	padding-right: 10px;
+}
+#jsn-install-download-backup-file {
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	padding: 0.6em 0.8em 0.6em 3.8em;
+	background: url(../images/icons-16/icon-warning.png) 14px center no-repeat;
+}
+.jsn-installation-failure-icon {
+	top: 3px;
+	left: 5px;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	display: inline-block;
+	background: url(../images/icons-16/icon-failure.png) left center no-repeat;
+}
+.jsn-installation-successfull-message {
+	display: none;
+	margin: 20px 0;
+	padding: 17px 0 0;
+	border-top: 1px solid #CCCCCC;
+}
+#jsn-installation-buttons,
+#jsn-installation-button-close,
+#jsn-installation-button-finish {
+	display: none;
+}
+#jsn-install-migrate-data,
+#jsn-install-themes {
+	display: none;
+}
+/* ============================== CHECK THUMB FOLDER ============================== */
+#jsn-checkthumb {
+	top: 0;
+	width: 250px;
+	height: 42px;
+	padding: 10px;
+	margin: 23% 40% 40%;
+	position: absolute;
+	background: #e4e4e4;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 5px 7px #999;
+	-moz-box-shadow: 0 5px 7px #999;
+	-webkit-box-shadow: 0 5px 7px #999;
+}
+#jsn-checkthumb-label {
+	margin: 5px 0 10px;
+}
+#jsn-checkthumb-count {
+	height: 3px;
+	border: 1px solid #999;
+}
+#jsn-checkthumb-progress-bar {
+	width: 0;
+	height: 100%;
+	background: #ffce3f;
+}
+/* ============================== MANUAL INSTALLATION ============================== */
+#jsn-install-manual-stage-1 {
+	margin: 5px 0 0 12px
+}
+#jsn-install-manual-stage-1 ul {
+	margin: 0;
+	padding: 0;
+}
+#jsn-install-manual-stage-1 ul li {
+	margin: 3px 0 0 8px;
+}
+#jsn-install-manual-stage-2-default div,
+#jsn-install-manual-stage-2 div {
+	margin: 5px 0 0 24px;
+}
+#jsn-install-manual-stage-2 a,
+#jsn-install-download-backup-file .jsn-install-download-backup-link {
+	color: #0099ca;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#jsn-install-manual-stage-2 button,
+#jsn-install-manual-stage-2-default button {
+	margin: 0 auto;
+	display: inline-block;
+}
+#jsn-install-manual-stage-2 input,
+#jsn-install-manual-stage-2-default input {
+	background: #ebebe4;
+}
+#jsn-install-manual-stage-2-default div {
+	margin: 5px 0 0 0;
+}
+.jsn-manual-install-form div {
+	margin: 5px 0 0;
+}
+.jsn-manual-install-form p {
+	margin: 14px 0 12px;
+}
+div.jsn-manual-install-form a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* ============================== THEME/PROFILE - HINT ============================== */
+.jsn-preview-hint-text {
+	float: right;
+}
+.jsn-preview-hint-caption {
+	font-size: 12px;
+	font-weight: bold;
+	list-style-type: none;
+}
+.jsn-preview-hint-text span {
+	width: 24px;
+	height: 24px;
+	display: block;
+	cursor: pointer;
+}
+.jsn-preview-hint-text .hint-active {
+	display: block;
+	max-width: 350px;
+}
+.jsn-preview-hint-text-content {
+	left: 0;
+	z-index: 99;
+	display: none;
+	font-size: 11px;
+	position: absolute;
+	font-weight: normal;
+	padding: 8px 30px 8px 10px;
+	background-color: #FFFFCC;
+	border: 1px solid #D4D5AA;
+}
+.jsn-preview-hint-text-content ul {
+	margin-left: 20px;
+}
+.jsn-preview-hint-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+/* ============================== ICON =========================================== */
+.jsn-source-icon-loading {
+	width: 16px;
+	height: 16px;
+	display: none;
+	margin: 0 auto;
+	vertical-align: middle;
+	background: url(../images/ajax-loader-circle.gif) left center no-repeat;
+}
+.jsn-source-icon-loading.show-loading {
+	display: inline-block;
+}
+/* ==================================== MANUAL INSTALLATION=================================== */
+.jsn-manual-installation ul li {
+	padding: 5px 5px 5px 0px;
+	list-style: none;
+}
+.jsn-manual-installation a.link-button {
+	padding: 5px 12px;
+	text-decoration: none !important;
+	color: #000 !important;
+}
+/*============================================== JSN PLUGIN EDITOR ============================================================*/
+.jsn-imageshow-plg-editor-container {
+	width: 500px;
+}
+.jsn-imageshow-plg-editor-wrapper {
+	width: 100%;
+}
+.jsn-imageshow-plg-editor-wrapper input {
+	float: left;
+	margin: 0 5px 0 0;
+}
+.jsn-imageshow-plg-editor-wrapper select {
+	float: left !important;
+	margin: 0 5px 0 0;
+}
+.jsn-imageshow-plg-editor-wrapper select.dimension {
+	width: 50px;
+	padding: 1px;
+}
+.jsn-imageshow-plg-editor-wrapper ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	padding-top: 10px
+}
+.jsn-imageshow-plg-editor-wrapper ul li {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+.jsn-imageshow-plg-editor-wrapper label {
+	display: block;
+	float: left;
+	max-width: 100px;
+	min-width: 80px;
+	padding: 0 5px 0 0;
+	margin: 5px 0;
+}
+.jsn-imageshow-plg-editor-wrapper .setting,
+.jsn-imageshow-plg-editor-wrapper .parameter {
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.jsn-imageshow-plg-editor-wrapper .parameter span.head,
+.jsn-imageshow-plg-editor-wrapper .setting span.head {
+	font-weight: bold;
+	background-color: #F6F6F6;
+	padding: 5px 0 5px 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.jsn-imageshow-plg-editor-wrapper #jsn-showlist-icon-warning,
+.jsn-imageshow-plg-editor-wrapper #jsn-showcase-icon-warning {
+	position: relative;
+	float: left;
+	height: 1%;
+	margin-top: 4px;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-icon-warning {
+	background: url(../images/icons-16/icon-warning.png) left center no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+	margin-left: 5px;
+	display: inline-block;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-tooltip-wrap {
+	display: none;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-tooltip-title {
+	font-weight: bold;
+	margin: 0px 0px 5px 0px;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-icon-warning:hover .jsn-tooltip-wrap {
+	position: absolute;
+	background: #FFFFCC;
+	border: 1px solid #D7D7AC;
+	display: block;
+	right: 20px;
+	padding: 5px;
+	top: 25px;
+	width: 200px;
+	z-index: 9999;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-tooltip-anchor {
+	background: url(../images/icons-16/selector-arrow.png) 13px 9px no-repeat;
+	display: block;
+	height: 48px;
+	right: -15px;
+	position: absolute;
+	top: -19px;
+	width: 45px;
+	z-index: 6666;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-icon-add {
+	background: url(../images/icons-16/icon-add.png) left center no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+	display: inline-block;
+	margin-left: 10px;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-icon-edit {
+	background: url(../images/icons-16/icon-edit.png) left center no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+	display: inline-block;
+	margin-left: 5px;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-icon-trans-edit {
+	background: url(../images/icons-16/icon-edit-trans.png) left center no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	display: block;
+	display: inline-block;
+	margin-left: 10px;
+}
+.jsn-imageshow-plg-editor-wrapper .jsn-menu-alert-message {
+	float: left;
+	font-size: 12px;
+}
+.jsn-imageshow-plg-editor-wrapper input#height,
+.jsn-imageshow-plg-editor-wrapper input#width {
+	width: 50px;
+}
+.jsn-imageshow-plg-editor-wrapper hr.jsn-horizontal-line {
+	margin: 0;
+}
+/*============================================== POPUP ============================================================*/
+.jsn-item-details .button-container {
+	text-align: center;
+	padding: 5px;
+	margin-top: 5px;
+}
+/*================================================ BOOTSTRAP =======================================================*/
+/*=============== TABLE ===============*/
+.jsn-bootstrap .table th.center,
+.jsn-bootstrap .table td.center {
+	text-align: center;
+}
+.jsn-bootstrap .input-prepend {
+	width: 125px;
+	margin: 0 auto;
+}
+.jsn-bootstrap .table td.jsn-list-order span.state {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../images/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+.jsn-bootstrap .table td.jsn-list-order span.state.downarrow {
+	background-position: -312px -96px;
+}
+.jsn-bootstrap .table td.jsn-list-order span.state.uparrow {
+	background-position: -289px -96px;
+}
+#jsn-data .jsn-bootstrap .tab-content {
+	padding: 0 10px;
+}
+#jsn-main-content .jsn-bootstrap .container {
+	width: 100%;
+}
+span.button-wrapper,
+#jsn-showcases-container fieldset span.button-wrapper,
+#jsn-showlists-container fieldset span.button-wrapper {
+	display: inline-block;
+	float: left;
+	padding-right: 5px;
+}
+.jsn-bootstrap .saveorder {
+	float: none;
+	display: inline-block;
+}
+table#jsn-showcase-detail-slide td,
+table#jsn-showlist-detail-slide td {
+	font-size: 12px;
+}
+.disabled {
+	font-weight: normal !important;
+}
+table.admintable input.inputbox {
+	vertical-align: baseline;
+}
+.admintable .overall-width-dimension {
+	width: 50px;
+}
+#jsn-imageshow-help .container-fluid {
+	padding: 0;
+}
+.fltlft {
+	float: left;
+}
+.fltrt {
+	float: right;
+}
+.jsn-showlist-source-slide .jsn-item .jsn-showcasetheme-install-update-theme .span-link-action {
+	float: none;
+	margin-left: 0;
+}
+div.jsn-bootstrap .jsn-pagination .container {
+	width: auto;
+}
+div.jsn-tabs .ui-tabs-panel {
+	padding: 0;
+}
+.loading {
+	background: url(../images/ajax-loader-big.gif) center 250px no-repeat;
+	position: absolute;
+}
+.jsn-item-details .img-box > img {
+	max-height: 120px;
+}
+/*=================================================== SUB MENU =================================================================*/
+#submenu-box div.m {
+	background-color: #EEEEEE;
+	background-image: -moz-linear-gradient(center top, #F5F5F5 0%, #EEEEEE 100%);
+	background-repeat: repeat-x;
+	border: 1px solid #ddd;
+	border-radius: 4px 4px 4px 4px;
+	width: 99.9%;
+	padding: 6px 0 !important;
+}
+label.filter-search-lbl {
+	margin-right: 5px;
+}
+#submenu li {
+	padding: 0 0 3px !important;
+}
+#submenu li a {
+	color: #025A8D !important;
+	font-weight: normal !important;
+	padding: 6px 15px 8px !important;
+	border-right-color: #DDDDDD !important;
+	text-decoration: none;
+}
+#submenu a.active {
+	background: #e9e9e9 !important;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05) inset;
+	color: #777777!important;
+	cursor: default;
+}
+#submenu a:hover {
+	background: #eee !important;
+}
+/*=============================================== UPDATER & UPGRADER =========================================================================*/
+#jsn-updater-button-close {
+	display: none;
+}
+.jsn-updater-cancel #jsn-updater-button-close {
+	display: inline-block;
+}
+.jsn-updater-cancel #jsn-updater-button-finish {
+	display: none;
+}
+#jsn-updater-button-finish {
+	display: none;
+}
+.jsn-updater-successfull button {
+	display: none;
+}
+.jsn-updater-successfull #jsn-updater-button-finish {
+	display: inline-block;
+}
+.jsn-upgrader-process-message, 
+.jsn-updater-process-message {
+	color: #009900;
+	padding-left: 5px;
+}
+#jsn-upgrader-installing-text,
+#jsn-upgrader-downloading-text {
+	display: none;
+}

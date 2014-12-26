@@ -1,0 +1,56 @@
+body.contentpane{
+	background:#FFF;
+}
+
+.menutypes{
+	padding-top: 10px;
+}
+div.clear-fix{
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+div.menutypes fieldset{
+	border: none;
+	border-bottom: 2px solid #EFEFEF;
+	padding-bottom: 35px;
+	margin-bottom: 20px;
+	position: relative;
+	clear: both;
+}
+div.menutypes fieldset legend{
+	font-size: 16px;
+	color: #000;
+}
+div.menutypes div.item_type{
+	width: 220px;
+	position: absolute;
+}
+div.menutypes div.item_type div.item_contain{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	border:1px solid #CCCCCC;
+	background:#FFF;
+}
+div.menutypes div.item_type div.item_contain p{
+	margin:8px;
+	color:#000000;
+	font-size:12px;
+	font:Arial, Helvetica, sans-serif;
+}
+div.menutypes div.item_type div.item_contain:hover{	
+	cursor:pointer;
+	background-color:#EFEFEF;
+}
+div.menutypes div.hidden_item  div.item_contain,
+div.menutypes div.hidden_item  div.item_contain:hover{
+	cursor: default;
+	border: none;
+	background: none;
+}
+div.menutypes div.hidden_item p{
+	display: none;
+}

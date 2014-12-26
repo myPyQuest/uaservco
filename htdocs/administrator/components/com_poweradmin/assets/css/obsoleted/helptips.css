@@ -1,0 +1,47 @@
+.jsn-content-tip-button{
+	width:42px;
+	height:50px;
+	display:block;
+	position:absolute;
+	background:url(../images/help-tip-button.png) no-repeat;
+}
+.jsn-content-tip-shadow{
+	color:#FFF;
+	font-size:14px;
+	font-weight:500;
+	display:none;
+	width:auto;
+	height:auto;
+	left:3px;
+	top:11px;
+	position:absolute;
+	background-image:url(../images/help-tip-content-bg-repeat.png);	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid none;
+	-webkit-box-shadow: 2px 2px 5px 0px #CCCCCC;
+	-moz-box-shadow: 2px 2px 5px 0px #CCCCCC;
+	box-shadow: 2px 2px 5px 0px #CCCCCC; 
+}
+
+.jsn-content-tip-shadow .jsn-tip-content-header{
+	height:22px;
+	width:auto;
+	display:block;
+	top:0px;
+	left:0px;
+	position:relative;
+	background:url(../images/help-tip-content-header-bg.png) repeat-x;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.jsn-content-tip-shadow .jsn-content-tip-shadow-text{
+	z-index:9999;
+	width:300px;
+	margin:0px 15px 7px 15px;
+	top:-8px;
+	position:relative;
+}

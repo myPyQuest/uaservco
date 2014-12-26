@@ -1,0 +1,147 @@
+/**
+ * @author JoomlaShine.com Team
+ * @copyright JoomlaShine.com
+ * @link joomlashine.com
+ * @package JSN ImageShow
+ * @version $Id: jsn-bootstrap.css 16543 2012-09-29 09:27:41Z thangbh $
+ * @license GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/*=================== BOOTSTRAP OVERRIDES ===========================*/
+.jsn-master .jsn-bootstrap legend {
+	font-weight: normal;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.jsn-master .jsn-bootstrap li {
+	margin: 5px 0;
+}
+.jsn-master .jsn-bootstrap select {
+	padding: 5px;
+}
+.jsn-master .jsn-bootstrap input[type="file"] {
+	display: inline-block;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 9px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #555555;
+	-webkit-border-radius: 3px;
+	 -moz-border-radius: 3px;
+	      border-radius: 3px;
+}
+.jsn-master .jsn-bootstrap fieldset {
+	margin-top: 20px;
+}
+.jsn-master .jsn-bootstrap fieldset:first-child {
+	margin-top: 0;
+}
+.jsn-master .jsn-bootstrap fieldset label,
+.jsn-master .jsn-bootstrap fieldset input,
+.jsn-master .jsn-bootstrap fieldset textarea,
+.jsn-master .jsn-bootstrap fieldset select,
+.jsn-master .jsn-bootstrap fieldset button {
+	float: none;
+}
+.jsn-master .jsn-bootstrap fieldset label {
+	margin-top: 0;
+}
+.jsn-master .jsn-bootstrap fieldset p {
+	font-size: 1em;
+}
+.jsn-master .jsn-bootstrap .btn.disabled,
+.jsn-master .jsn-bootstrap .btn[disabled] {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.jsn-master .jsn-bootstrap .btn [class^="icon-"],
+.jsn-master .jsn-bootstrap .btn [class*=" icon-"] {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.jsn-master .jsn-bootstrap .btn.btn-icon [class^="icon-"],
+.jsn-master .jsn-bootstrap .btn.btn-icon [class*=" icon-"] {
+	margin: 3px 0;
+}
+.jsn-master .jsn-bootstrap .btn .label {
+	font-size: 10px;
+	margin: 0px 3px 0 0;
+	position: relative;
+	top: -2px;
+	left: -4px;
+}
+.jsn-master .jsn-bootstrap .form-inline label {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.jsn-master .jsn-bootstrap .form-inline input,
+.jsn-master .jsn-bootstrap .form-inline label,
+.jsn-master .jsn-bootstrap .form-inline button,
+.jsn-master .jsn-bootstrap .form-inline select,
+.jsn-master .jsn-bootstrap .form-inline textarea {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.jsn-master .jsn-bootstrap .form-actions {
+	text-align: center;
+}
+.jsn-master .jsn-bootstrap .form-actions,
+.jsn-master.ui-dialog-contentpane .jsn-bootstrap .form-actions {
+	margin: 15px 0;
+	padding: 10px;
+	background: none;
+	border: none;
+}
+.jsn-master .jsn-bootstrap .help-inline {
+	padding-right: 5px;
+}
+.jsn-master .jsn-bootstrap .alert {
+	color: #666;
+	border-color: #DDD;
+}
+.jsn-master .jsn-bootstrap .input-prepend input:focus, 
+.jsn-master .jsn-bootstrap .input-append input:focus, 
+.jsn-master .jsn-bootstrap .input-prepend select:focus, 
+.jsn-master .jsn-bootstrap .input-append select:focus, 
+.jsn-master .jsn-bootstrap .input-prepend .uneditable-input:focus, 
+.jsn-master .jsn-bootstrap .input-append .uneditable-input:focus {
+    z-index: 0;
+}
+
+.jsn-master .jsn-bootstrap .jsn-form-bar {
+	margin: 10px 0;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar .control-group {
+	display: inline-block;
+	margin: 0 10px;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar .control-group:first-child {
+	margin-left: 0;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar .control-group:last-child {
+	margin-right: 0;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar .control-group .control-label {
+	display: inline-block;
+	width: auto;
+	float: none;
+	margin-right: 5px;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar .control-group .controls {
+	display: inline-block;
+	margin-left: 0;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar select,
+.jsn-master .jsn-bootstrap .jsn-form-bar input {
+	margin-bottom: 0;
+}
+.jsn-master .jsn-bootstrap .jsn-form-bar label {
+	white-space: nowrap;
+}
+.jsn-master .jsn-bootstrap .popover-title {
+	font-weight: bold;
+}
+.jsn-master .jsn-bootstrap .popover-content form {
+	margin: 0;
+}

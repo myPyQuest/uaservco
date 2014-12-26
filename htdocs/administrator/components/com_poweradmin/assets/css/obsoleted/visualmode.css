@@ -1,0 +1,180 @@
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+#jsn-page-container div.jsn-clearbreak {
+	clear: both;
+}
+#jsn-page-container .jsn-clearafter:after {
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+/* ============================== VISUAL MANAGER ============================== */
+/* =============== BLOCKS SHOW / NORMAL SHOW SWITCHER =============== */
+#jsn-page-container div.button-show-position {
+	top: 0;
+	left: 0;
+	padding: 10px;
+	position: fixed;
+	background: #797979;
+	border: 1px solid #EEE;
+}
+#jsn-page-container div.button-show-position input[type="button"] {
+	cursor: pointer;
+	margin-right: 5px;
+	background: #F9F9F9;
+	border: 1px solid #E0E0E0;
+}
+#jsn-page-container div.button-show-position input[type="button"]:hover {
+	background: #E0E0E0;
+}
+/* =============== POSITION / MODULE CONTAINER OUTLINE =============== */
+#jsn-page-container .jsn-show-block {
+	font-size: 12px;
+}
+#jsn-page-container .jsn-show-block,
+#jsn-page-container .poweradmin-module-item {
+	position: relative;
+	cursor: move;
+}
+#jsn-page-container .inactive-position{
+	border:2px solid #FF9900;
+	background:#666666;
+	font-size:14px;
+	font-weight:700;
+	color:#FFF;
+	padding-left:10px;
+	padding-top:5px;
+	height:25px;
+}
+#jsn-page-container .jsn-module-unpublish {
+	opacity: 0.5;
+}
+#jsn-page-container .jsn-show-module-container {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#jsn-page-container .jsn-show-module {
+	top: 1px;
+	left: 1px;
+	position: absolute;
+	border: 2px solid #6BB337;
+}
+/* =============== COMPONENT CONTAINER OUTLINE =============== */
+#jsn-page-container .jsn-component-container .jsn-show-component-container {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+#jsn-page-container .jsn-component-container .jsn-show-component {	
+	position: absolute;
+	border: 2px solid #2C8DCE;
+}
+#jsn-page-container .jsn-component-container #tableshow {
+	width: 26px;
+	height: 26px;
+	float: right;
+	cursor: pointer;
+	background: #2C8DCE url(../images/icons-24-uni.png) 2px 0 no-repeat;
+}
+#jsn-page-container .jsn-component-container #tableshow:hover {
+	background-position: 2px -94px;
+}
+/* =============== POSITION / MODULE SETTINGS PANEL =============== */
+#jsn-page-container .jsn-module-settings {
+	margin: 0;
+	padding: 0;
+	width: 28px;
+	height: 28px;
+	float: right;
+	cursor: pointer;
+	background: #6BB337 url(../images/edit.png) center no-repeat;
+}
+#jsn-page-container .jsn-module-settings:hover {
+	background-position: 2px -282px;
+}
+#jsn-page-container .jsn-module-settings-subpanel {
+	margin: 0;
+	padding: 2px;
+	z-index: 99997;
+	min-width: 100px;
+	position: absolute;
+	list-style-type: none;
+	background-color: #333;
+	border: 1px solid #666;
+}
+#jsn-page-container .jsn-module-settings-subpanel li {
+	margin: 0;
+	color: #CCC;
+	padding: 2px 5px;
+}
+#jsn-page-container .jsn-module-settings-subpanel li:hover {
+	background-color: #4F4F4F;
+	cursor:pointer;
+}
+/* =============== BLOCKS SHOW =============== */
+#jsn-page-container .jsn-show-block #jsn-position-panel {
+	display: none;
+}
+#jsn-page-container .jsn-show-block .jsn-show-component-container {
+	display: block;
+}
+#jsn-page-container .jsn-show-block .showBlockPosition {
+	display: block;
+	position: static;
+}
+#jsn-page-container .jsn-show-block .active-tabs {
+	display: block;
+}
+#jsn-page-container .jsn-show-block .orange_boder_top,
+#jsn-page-container .jsn-show-block .orange_boder_right,
+#jsn-page-container .jsn-show-block .orange_boder_bottom,
+#jsn-page-container .jsn-show-block .orange_boder_left,
+#jsn-page-container .jsn-show-block .orange_tabs {
+	display: none !important;
+}
+/*================== DRAG AND DROP =====================*/
+div.jsn-item-hover {
+	background:#666666;
+	border:2px dashed #6BB337;
+	height:32px;
+	width:auto;
+	white-space:nowrap;
+}
+div.jsn-temp-item{
+	width:auto;
+	height:30px;
+	white-space:nowrap;
+	opacity: 1;
+	z-index: 99999;
+}
+div.jsn-temp-item-hover {
+	border:2px dashed #6BB337;
+}
+div.jsn-item-drag {
+	background:#900;
+	width:auto;
+	height:32px;
+}
+/*=================BUTTON ADD NEW MODULE ================*/
+div.inactive-position  .jsn-position-name{
+	float:left;
+}
+div.inactive-position a.add-new-module{
+	background:url(../images/inactive-add-new-module.png) no-repeat;
+	width:15px;
+	height:16px;
+	display:block;
+	float:right;
+	cursor:pointer;
+	position:relative;
+	top:4px;
+	right:4px;
+	text-decoration:none;
+	z-index:99999;
+}

@@ -1,0 +1,81 @@
+.jsn-context-wrapper {
+	display: block;
+	width: 32px;
+	height: 35px;
+	position: absolute;
+}
+
+.jsn-context-wrapper .jsn-tip-button {
+	background: url(../images/help-arrow.png) no-repeat center top;
+	height: 10px;
+	width: 100%;
+}
+.jsn-context-wrapper.top .jsn-tip-button {
+	position: absolute;
+	top: 0 !important;
+}
+.jsn-context-wrapper.bottom .jsn-tip-button {
+	background-position: center -10px;
+}
+.jsn-context-wrapper .jsn-tip-plus {
+	background: url(../images/plus.png) no-repeat center center;
+	width: 100%;
+	height: 34px;
+}
+.jsn-context-wrapper .jsn-tip-content {
+	background: #559d22;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+	width: 32px;
+	height: 34px;
+	overflow: hidden;
+}
+.jsn-context-wrapper.top .jsn-tip-content {
+	margin-top: 10px;
+}
+.jsn-context-wrapper .jsn-tip-content p {
+	margin: 0;
+	padding: 15px;
+	color: #fff;
+	font-size: 13px;
+}
+.jsn-context-wrapper .jsn-tip-content ul {
+	margin: 0; 
+	padding: 0;
+	margin-left: 25px;
+}
+
+.jsn-context-wrapper .gradient {
+	background: #81c94c;
+	background-image: linear-gradient(bottom, #559d22 0%, #81c94c 100%);
+	background-image: -o-linear-gradient(bottom, #559d22 0%, #81c94c 100%);
+	background-image: -moz-linear-gradient(bottom, #559d22 0%, #81c94c 100%);
+	background-image: -webkit-linear-gradient(bottom, #559d22 0%, #81c94c 100%);
+	background-image: -ms-linear-gradient(bottom, #559d22 0%, #81c94c 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #559d22),
+		color-stop(1, #81c94c)
+	);
+}
+.jsn-context-wrapper .gradient.bottom {
+	background: #81c94c;
+	background-image: linear-gradient(bottom, #81c94c 0%, #559d22 100%);
+	background-image: -o-linear-gradient(bottom, #81c94c 0%, #559d22 100%);
+	background-image: -moz-linear-gradient(bottom, #81c94c 0%, #559d22 100%);
+	background-image: -webkit-linear-gradient(bottom, #81c94c 0%, #559d22 100%);
+	background-image: -ms-linear-gradient(bottom, #81c94c 0%, #559d22 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #81c94c),
+		color-stop(1, #559d22)
+	);
+}
